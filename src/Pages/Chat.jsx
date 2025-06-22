@@ -27,7 +27,7 @@ const Chat = () => {
 
   return (
     <div className="p-4 mx-2">
-      <h2 className="text-2xl font-bold mb-2 text-red-950">Chat</h2>
+      <h2 className="text-2xl font-bold mb-2 text-orange-700">Chat</h2>
       <div className="h-64 overflow-y-scroll border p-2 mb-4 outline-none rounded-lg hover:border-indigo-600">
         {messages.map((m, i) => (
           <div key={i} className="mb-2 bg-gray-100 p-2 rounded">

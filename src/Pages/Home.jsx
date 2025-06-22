@@ -35,7 +35,7 @@ const Home = () => {
       </div>
 
       {/* Trending Section */}
-      <h2 className="text-2xl font-semibold mb-2">Trending Workers</h2>
+      <h2 className="text-2xl font-semibold mb-2 text-orange-700">Trending Workers</h2>
 
       <div className="grid grid-cols-auto gap-4">
         {[...Array(4)].map((_, i) => (
